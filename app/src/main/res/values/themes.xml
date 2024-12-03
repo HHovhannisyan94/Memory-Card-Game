@@ -1,0 +1,11 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MatchingGame" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+
+    <style name="NoBackgroundDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@null</item>
+    </style>
+</resources>

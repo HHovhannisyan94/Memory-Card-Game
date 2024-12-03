@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2A2A"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.matchinggame.presentation.ui.fragment.GameMenuFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_level_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#C62828"
+        android:text="Level 1: 4x4"
+        android:textColor="#F1BE41"
+        android:textSize="20sp"
+        app:strokeColor="#FBC02D"
+        app:strokeWidth="3dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_level_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#C62828"
+        android:text="Level 2: 6x6 with Shapes"
+        android:textColor="#F1BE41"
+        android:textSize="20sp"
+        app:strokeColor="#FBC02D"
+        app:strokeWidth="3dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_level_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#C62828"
+        android:text="Level 3: 6x6 with Cards"
+        android:textColor="#F1BE41"
+        android:textSize="20sp"
+        app:strokeColor="#FBC02D"
+        app:strokeWidth="3dp" />
+</LinearLayout>
